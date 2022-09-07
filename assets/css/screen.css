@@ -1118,12 +1118,6 @@ use it for applying any other styles. */
     grid-column: main-start / main-end;
 }
 
-@media screen and (min-width: 800px){
-    .gh-canvas > * {
-        grid-column: wide-start / wide-end;
-    }
-}
-
 .kg-width-wide {
     grid-column: wide-start / wide-end;
 }
